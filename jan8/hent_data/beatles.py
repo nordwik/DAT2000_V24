@@ -7,7 +7,7 @@ class Beatles:
         self.tabellen = tabellen
 
     def finn_beatle_id(self, beatle):
-        return finn_beatle_id_utrygg(self.engine, beatle)
+        return finn_beatle_id_trygg(self.engine, beatle)
 
 def finn_beatle_id_trygg(engine, tabellen, beatle):
     stmt = select(tabellen.c.Id).where(tabellen.c.Name == literal(beatle))
