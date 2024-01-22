@@ -1,12 +1,13 @@
 # Oppgaver til øving i DAT2000 22. Januar 2024
 Hvis du vil hente ned disse endringene til repoet ditt så kjør fra mappen hvor du har klonet det ut:
 ```
+git add --all             
 git stash save 
 git pull
 ```
 Den første kommandoen mellomlagrer endringene dine ("stasher").
 Du kan hente de fram igjen ved å kjøre `git stash apply` ved en senere anledning. 
-
+e
 Vi skal jobbe med to CSV-filer fra tilsyn med serveringssteder, den såkalte smilefjesordningen.
 
 - [Smilefjestilsyn på serveringssteder](https://data.norge.no/datasets/288aa74c-e3d3-492e-9ede-e71503b3bfd9)
